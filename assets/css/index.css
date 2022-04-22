@@ -1,0 +1,158 @@
+*, :before, :after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-color: #6c655d;
+}
+
+.content{
+    width: 50%;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.category{
+    margin: auto;
+}
+
+.category>li{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link-nav{
+    text-decoration:none; 
+    padding: 35px;
+    color: #6c655d;
+}
+
+a:hover{
+    background-color: #662f32;
+    color:#ffffff;
+    transition: 0.5s;
+}
+
+.title{
+    font-size: 100px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.title-brown{
+    color: #662f32;
+}
+
+.top-carousel{
+
+}
+
+.pic-size{
+    width: 100%;;
+}
+
+.first-content{
+    display: flex;
+}
+
+.last-works{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.box-title{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #662f32;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.box-text-btn{
+    background-color: #6c655d;
+    color: #ffffff;
+    justify-content: flex-end;
+}
+
+.second-content{
+    display: flex;
+}
+
+.tesimonials{
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+}
+
+.prenium-services{
+    flex-direction: column;
+    margin: 12px;
+}
+
+.about-us{
+    flex-direction: column;
+    margin: 12px;
+}
+
+.title-box{
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    color: #6c655d;
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.highlight{
+    color: #662f32;
+    font-weight:900;
+}
+
+p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.read-more-btn{
+    color: #ffffff;
+    background-color: #6c655d;  
+    padding: 20px;
+}
+
+footer{
+    display: flex;
+    border-top:2px solid #662f32;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+
+.size-copyright{
+    width:13%;
+}
+
+
